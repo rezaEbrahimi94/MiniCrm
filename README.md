@@ -5,11 +5,12 @@ Backend:
 1. set up a database and update the .env file
 2. cd to the root of the app
 3. run composer install
-4. run php artisan migrate 
-5. run php artisan queue:work 
-6. run php artisan db:seed 
+4. run php artisan key:generate
+5. run php artisan migrate 
+6. run php artisan queue:work 
+7. run php artisan db:seed 
     this command will make a user (email: "admin@admin.com" password: "password") to login into the admin panel and also some company and employee records to test.
-7. php artisan serve
+8. php artisan serve
 
 
 Frontend: 
